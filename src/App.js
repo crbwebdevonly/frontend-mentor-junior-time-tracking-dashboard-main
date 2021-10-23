@@ -1,10 +1,17 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./app.scss";
+import Profile from "./components/Profile";
+import Card from "./components/Card";
 
 function App() {
      return (
-          <div className="App">
-               <h1>try3 c1</h1>
+          <div className="app-container">
+               <div className="app-profile-wrap">
+                    <Profile />
+               </div>
+               <div className="app-all-cards-wrap">
+                    <Card />
+               </div>
           </div>
      );
 }
