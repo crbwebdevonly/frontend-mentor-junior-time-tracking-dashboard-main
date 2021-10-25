@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.9e1bd6a0.chunk.css",
-    "main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.d47de4f1.chunk.js",
-    "main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.d47de4f1.chunk.js.map",
+    "main.css": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.8118d6c3.chunk.css",
+    "main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.18a032c7.chunk.js",
+    "main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.18a032c7.chunk.js.map",
     "runtime-main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/runtime-main.4d83ec80.js",
     "runtime-main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/runtime-main.4d83ec80.js.map",
     "static/js/2.bea3b75d.chunk.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.bea3b75d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.46ae2d49.chunk.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/3.46ae2d49.chunk.js",
     "static/js/3.46ae2d49.chunk.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/3.46ae2d49.chunk.js.map",
     "index.html": "/frontend-mentor-junior-time-tracking-dashboard-main/index.html",
-    "static/css/main.9e1bd6a0.chunk.css.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.9e1bd6a0.chunk.css.map",
+    "static/css/main.8118d6c3.chunk.css.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.8118d6c3.chunk.css.map",
     "static/js/2.bea3b75d.chunk.js.LICENSE.txt": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.bea3b75d.chunk.js.LICENSE.txt",
     "static/media/icon-ellipsis.a57a4ac8.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-ellipsis.a57a4ac8.svg",
     "static/media/icon-exercise.3e7b0282.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-exercise.3e7b0282.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d83ec80.js",
     "static/js/2.bea3b75d.chunk.js",
-    "static/css/main.9e1bd6a0.chunk.css",
-    "static/js/main.d47de4f1.chunk.js"
+    "static/css/main.8118d6c3.chunk.css",
+    "static/js/main.18a032c7.chunk.js"
   ]
 }
