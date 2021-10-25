@@ -3,10 +3,10 @@ import React from "react";
 import { data } from "../data";
 import JEREMY from "../images/image-jeremy.png";
 
-const Profile = () => {
+const Profile = ({ setSelectTime, selectTime }) => {
      //======================================================
      //======================================================
-     console.log(data);
+     // console.log(data);
      //======================================================
      //======================================================
      //======================================================
@@ -23,9 +23,38 @@ const Profile = () => {
                </div>
                <div className="bottom">
                     <ul>
-                         <li>Daily</li>
-                         <li>Weekly</li>
-                         <li>Monthly</li>
+                         {/* selectTime === "daily" && */}
+                         <li
+                              onClick={() => setSelectTime("daily")}
+                              className={
+                                   selectTime === "daily"
+                                        ? "selected"
+                                        : "not-selected"
+                              }
+                         >
+                              Daily
+                         </li>
+                         <li
+                              onClick={() => setSelectTime("weekly")}
+                              className={
+                                   selectTime === "weekly"
+                                        ? "selected"
+                                        : "not-selected"
+                              }
+                         >
+                              Weekly
+                         </li>
+
+                         <li
+                              onClick={() => setSelectTime("monthly")}
+                              className={
+                                   selectTime === "monthly"
+                                        ? "selected"
+                                        : "not-selected"
+                              }
+                         >
+                              Monthly
+                         </li>
                     </ul>
                </div>
           </div>

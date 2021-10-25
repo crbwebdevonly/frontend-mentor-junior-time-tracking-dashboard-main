@@ -50,6 +50,7 @@ The designs were created to the following widths:
 
      --very-dark-blue: hsl(226, 43%, 10%);
      --dark-blue: hsl(235, 46%, 20%);
+     --dark-blue2: hsl(235, 46%, 25%);
      --desaturated-blue: hsl(235, 45%, 61%);
      --pale-blue: hsl(236, 100%, 87%);
 }
@@ -66,6 +67,17 @@ body {
 
 .app-container {
      padding: 60px 20px;
+     display: grid;
+     place-content: center;
+
+     @media screen and (min-width: 700px) {
+          background-color: rgba(255, 0, 0, 0.26);
+          // grid-template-columns: 1fr 1fr;
+          // grid-template-rows: 1fr 1fr 1fr 1fr;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+     }
      .app-profile-wrap {
      }
 
@@ -77,8 +89,14 @@ body {
      border-radius: 10px;
      overflow: hidden;
      background-color: var(--dark-blue);
-     min-width: 300px;
+     min-width: 270px;
      max-width: 400px;
+
+     @media screen and (min-width: 700px) {
+          min-width: unset;
+          width: 220px;
+          // max-width: 200px;
+     }
      .top {
           padding: 30px 20px;
           // background-color: rgb(95, 80, 233);
@@ -89,6 +107,10 @@ body {
           // justify-content: space-between;
           align-items: center;
           gap: 20px;
+          @media screen and (min-width: 700px) {
+               flex-direction: column;
+               align-items: flex-start;
+          }
           .info {
                display: flex;
                flex-direction: column;
@@ -101,6 +123,9 @@ body {
                .name {
                     font-weight: 300;
                     font-size: 1.3rem;
+                    @media screen and (min-width: 700px) {
+                         font-size: 2rem;
+                    }
                }
           }
           .img-wrap {
@@ -122,11 +147,18 @@ body {
                justify-content: space-between;
                // flex-direction: column;
                gap: 5px;
+               @media screen and (min-width: 700px) {
+                    flex-direction: column;
+                    gap: 10px;
+               }
 
                li {
                     color: var(--desaturated-blue);
                     cursor: pointer;
                     &:hover {
+                         color: white;
+                    }
+                    &.selected {
                          color: white;
                     }
                }
@@ -135,4 +167,79 @@ body {
 }
 
 .card-container {
+     @media screen and (min-width: 700px) {
+          width: 220px;
+     }
+     .top-bar {
+          height: 40px;
+          width: 100%;
+          // background-color: red;
+
+          overflow: hidden;
+     }
+
+     .icon-wrap {
+          position: absolute;
+          top: 0;
+          right: 20px;
+     }
+     .info-wrap {
+          z-index: 100;
+
+          // margin-top: 20px;
+          border-radius: 10px;
+          padding: 20px;
+          background-color: var(--dark-blue);
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          cursor: pointer;
+
+          &:hover {
+               background-color: var(--dark-blue2);
+          }
+
+          .top {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+
+               .title {
+                    font-weight: 500;
+                    // color: white;
+                    font-size: 1rem;
+               }
+               .more {
+                    transition: all 0.51s ease;
+                    &:hover {
+                         color: red;
+                         // background-color: red;
+                         transform: scale(1.5);
+                    }
+               }
+          }
+
+          .bottom {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               @media screen and (min-width: 700px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+               }
+               .current-time {
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    @media screen and (min-width: 700px) {
+                         font-size: 2.5rem;
+                         margin-top: 10px;
+                         margin-bottom: 5px;
+                    }
+               }
+               .previous-time {
+                    color: var(--pale-blue);
+                    font-size: 0.81rem;
+               }
+          }
+     }
 }
