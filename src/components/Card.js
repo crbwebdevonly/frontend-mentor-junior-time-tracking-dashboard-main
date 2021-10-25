@@ -13,7 +13,7 @@ import styled from "styled-components";
 //======================================================
 const StyledDiv1 = styled.div`
      background-color: ${(props) => props.colorMe};
-     margin: 20px 0;
+     /* margin: 20px 0; */
      border-radius: 10px;
      color: white;
 `;
@@ -40,7 +40,7 @@ const StyledImg1 = styled.img`
 `;
 //======================================================
 //======================================================
-const Card = ({ data, selectTime }) => {
+const Card = ({ data, selectTime,index }) => {
      // console.log(data, selectTime);
      const { title } = data;
      const { daily, weekly, monthly } = data.timeframes;
@@ -112,7 +112,7 @@ const Card = ({ data, selectTime }) => {
      // console.log(thisColor, ">>", current);
      //======================================================
      return (
-          <div className="card-container">
+          <div className={`card-container index-${index}`}>
                <StyledDiv1 colorMe={thisColor}>
                     <div className="top-bar">
                          {/* <div className="icon-wrap">

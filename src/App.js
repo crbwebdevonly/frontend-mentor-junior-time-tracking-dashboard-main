@@ -7,20 +7,30 @@ import { useState } from "react";
 
 function App() {
      //======================================================
-     const [selectTime , setSelectTime] = useState("weekly")
+     const [selectTime, setSelectTime] = useState("weekly");
      //======================================================
      //======================================================
      //======================================================
      return (
           <div className="app-container">
-               <div className="app-profile-wrap">
-                    <Profile setSelectTime={setSelectTime} selectTime={selectTime}/>
-               </div>
-               {/* <div className="app-all-cards-wrap"> */}
-                    {data.map((e,i) => (
-                         <Card data={e} selectTime={selectTime} key={i}/>
+               <div className="grid-wrap">
+                    <div className="app-profile-wrap">
+                         <Profile
+                              setSelectTime={setSelectTime}
+                              selectTime={selectTime}
+                         />
+                    </div>
+                    {/* <div className="app-all-cards-wrap"> */}
+                    {data.map((e, i) => (
+                         <Card
+                              data={e}
+                              selectTime={selectTime}
+                              key={i}
+                              // className={`card-${i}`}
+                              index={i}
+                         />
                     ))}
-               {/* </div> */}
+               </div>
           </div>
      );
 }
