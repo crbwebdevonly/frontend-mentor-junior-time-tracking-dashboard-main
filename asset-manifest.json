@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.935be312.chunk.css",
-    "main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.6a7a384b.chunk.js",
-    "main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.6a7a384b.chunk.js.map",
-    "runtime-main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/runtime-main.04e5784b.js",
-    "runtime-main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/runtime-main.04e5784b.js.map",
-    "static/js/2.1cae37c1.chunk.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.1cae37c1.chunk.js",
-    "static/js/2.1cae37c1.chunk.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.1cae37c1.chunk.js.map",
-    "static/js/3.141fde99.chunk.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/3.141fde99.chunk.js",
-    "static/js/3.141fde99.chunk.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/3.141fde99.chunk.js.map",
+    "main.css": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.9e1bd6a0.chunk.css",
+    "main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.d47de4f1.chunk.js",
+    "main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/main.d47de4f1.chunk.js.map",
+    "runtime-main.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/runtime-main.4d83ec80.js",
+    "runtime-main.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/runtime-main.4d83ec80.js.map",
+    "static/js/2.bea3b75d.chunk.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.bea3b75d.chunk.js",
+    "static/js/2.bea3b75d.chunk.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.bea3b75d.chunk.js.map",
+    "static/js/3.46ae2d49.chunk.js": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/3.46ae2d49.chunk.js",
+    "static/js/3.46ae2d49.chunk.js.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/3.46ae2d49.chunk.js.map",
     "index.html": "/frontend-mentor-junior-time-tracking-dashboard-main/index.html",
-    "static/css/main.935be312.chunk.css.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.935be312.chunk.css.map",
-    "static/js/2.1cae37c1.chunk.js.LICENSE.txt": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.1cae37c1.chunk.js.LICENSE.txt",
+    "static/css/main.9e1bd6a0.chunk.css.map": "/frontend-mentor-junior-time-tracking-dashboard-main/static/css/main.9e1bd6a0.chunk.css.map",
+    "static/js/2.bea3b75d.chunk.js.LICENSE.txt": "/frontend-mentor-junior-time-tracking-dashboard-main/static/js/2.bea3b75d.chunk.js.LICENSE.txt",
+    "static/media/icon-ellipsis.a57a4ac8.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-ellipsis.a57a4ac8.svg",
+    "static/media/icon-exercise.3e7b0282.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-exercise.3e7b0282.svg",
+    "static/media/icon-play.e8d4e569.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-play.e8d4e569.svg",
+    "static/media/icon-self-care.a161aff5.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-self-care.a161aff5.svg",
+    "static/media/icon-social.64be0c18.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-social.64be0c18.svg",
+    "static/media/icon-study.1f0a65e4.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-study.1f0a65e4.svg",
+    "static/media/icon-work.a3f124e5.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/icon-work.a3f124e5.svg",
     "static/media/image-jeremy.71cd41f1.png": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/image-jeremy.71cd41f1.png",
     "static/media/logo.6ce24c58.svg": "/frontend-mentor-junior-time-tracking-dashboard-main/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.04e5784b.js",
-    "static/js/2.1cae37c1.chunk.js",
-    "static/css/main.935be312.chunk.css",
-    "static/js/main.6a7a384b.chunk.js"
+    "static/js/runtime-main.4d83ec80.js",
+    "static/js/2.bea3b75d.chunk.js",
+    "static/css/main.9e1bd6a0.chunk.css",
+    "static/js/main.d47de4f1.chunk.js"
   ]
 }
